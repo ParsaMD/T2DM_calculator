@@ -1,7 +1,7 @@
 import pandas as pd
 import joblib
 import streamlit as st
-
+import scikit-learn
 # ----------------- LOAD MODELS -----------------
 scaler = joblib.load("std_scaler_7param.pkl")
 cal_svm = joblib.load("calibrated_svm_7param.pkl")
